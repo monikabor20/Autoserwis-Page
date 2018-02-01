@@ -9,12 +9,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="style/stylesheet-glowne.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113385519-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113385519-1');
+
+    </script>
 </head>
 
 <body>
@@ -44,7 +59,7 @@
             </ul>
         </div>
     </nav>
-    
+
     <!-- Carousel-->
     <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
         <!-- Indicators -->
@@ -101,7 +116,7 @@
             <!-- Left part main -->
             <div class="aside col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div class="head-main-aside">
-                    <h2> O firmie</h2>
+                    <h2>O firmie</h2>
                 </div>
                 <p>Firma założona przez mechanika z wieloletnim doświadczeniem, który interesuje się motoryzacją od zawsze. Jestem nie tylko pasjonatem aut, ale również motocykli. Dbam o to, aby usługi wykonywane w moim zakładzie były na jak najwyższym poziomie.</p>
             </div>
@@ -109,49 +124,47 @@
             <!-- Right part main -->
             <div class="main col-lg-8 col-md-10 col-sm-12 col-xs-12 ">
                 <div class="head-main-right">
-                    <h2> Usługi</h2>
+                    <h2>Usługi</h2>
                 </div>
-                <div class="left-buttons col-sm-6">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="btn-group-vertical btn-group-lg">
-                            <a href="uslugi.html#naprawy" role="button" class="btn btn-danger">Naprawy bieżące</a>
-                            <a href="uslugi.html#blacharstwo" role="button" class="btn btn-danger">Blacharstwo i lakiernictwo</a>
-                            <a href="uslugi.html#diagnostyka" role="button" class="btn btn-danger"> Diagnostyka komputerowa</a>
-                            <a href="uslugi.html#motocykle" role="button" class="btn btn-danger">Naprawa i serwis motocykli</a>
-                        </div>
+
+
+
+                <div class="row services">
+                    <div class="col-md-6 mx-auto col-sm-8 mb-2  mb-md-0">
+                        <a href="uslugi.html#naprawy" class="btn btn-danger btn-block">Naprawy bieżące</a>
+                        <a href="uslugi.html#blacharstwo" class="btn btn-danger btn-block">Blacharstwo i lakiernictwo</a>
+                        <a href="uslugi.html#diagnostyka" class="btn btn-danger btn-block">Diagnostyka komputerowa</a>
+                        <a href="uslugi.html#motocykle" class="btn btn-danger btn-block">Naprawa i serwis motocykli</a>
+                    </div>
+                    <div class="col-md-6 mx-auto col-sm-8">
+                        <a href="uslugi.html#tapicerki" class="btn btn-danger btn-block">Pranie tapicerek</a>
+                        <a href="uslugi.html#klimatyzacja" class="btn btn-danger btn-block">Serwis klimatyzacji</a>
+                        <a href="uslugi.html#elektronika" class="btn btn-danger btn-block">Elektryka i elektronika</a>
+                        <a href="uslugi.html#wulkanizacja" class="btn btn-danger btn-block">Wulkanizacja</a>
                     </div>
                 </div>
-                <div class="right-buttons col-sm-6">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="btn-group-vertical btn-group-lg">
-                            <a href="uslugi.html#tapicerki" role="button" class="btn btn-danger">Pranie tapicerek</a>
-                            <a href="uslugi.html#klimatyzacja" role="button" class="btn btn-danger">Serwis klimatyzacji</a>
-                            <a href="uslugi.html#elektronika" role="button" class="btn btn-danger">Elektryka i elektronika</a>
-                            <a href="uslugi.html#wulkanizacja" role="button" class="btn btn-danger">Wulkanizacja</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
 
         <div class="row">
             <div class="infobar col-sm-4 col-xs-12 col-md-4 col-lg-4">
-                <h3> Skontaktuj się</h3>
+                <h3>Skontaktuj się</h3>
                 <p>Masz kłopot ze swoim samochodem? Skontaktuj się z nami lub przyjedź do naszego warsztatu.</p>
-                <p> Tel. 697487620 </p>
+                <p>Tel. 697487620 </p>
                 <address>Marchewki 3, Gmina Prostki</address>
             </div>
             <div class="infobar col-sm-4 col-xs-12 col-md-4 col-lg-4">
                 <h3> Facebook </h3>
-                <div class="facebook  col-xs-offset-2  col-lg-offset-3">
+                <div class="col-xs-offset-2  col-lg-offset-3">
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fauto.serwis.p.wierszel%2F&tabs=timeline&width=250px&height=200px&small_header=false&hide_cover=false&show_facepile=true&appId" width="100%" height="200px" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                 </div>
             </div>
             <div class="infobar col-sm-4 col-xs-12 col-md-4 col-lg-4">
-                <h3> Godziny otwarcia </h3>
-                <p> Pn. - Pt.: 8.00 - 17.00</p>
+                <h3>Godziny otwarcia </h3>
+                <p>Pn. - Pt.: 8.00 - 17.00</p>
                 <p>Sb.: 8.00 - 14.00 </p>
-                <p> Nd.: Zamknięte </p>
+                <p>Nd.: Zamknięte </p>
             </div>
         </div>
     </div>
@@ -159,4 +172,5 @@
         <p>Monika Borawska 2018 Copyright ©. All Rights Reserved. </p>
     </footer>
 </body>
+
 </html>

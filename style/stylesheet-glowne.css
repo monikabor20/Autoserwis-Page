@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -6,10 +6,9 @@ html {
     height: 100%;
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
+html, body {
+    margin:0;
+	padding:0;
 }
 
 body h2 {
@@ -21,7 +20,7 @@ body h2 {
     font-size: 18px;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand{
     font-size: 18px;
 }
 
@@ -50,11 +49,12 @@ body h2 {
     margin-right: auto;
 }
 
-.foto-change {
+.foto-change{
     padding: 60px 0px 0px 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
+
 
 .head-main-right h2 {
     text-align: center;
@@ -77,23 +77,14 @@ body h2 {
     font-size: 15px;
 }
 
-.btn-group-vertical {
-    width: 300px;
-}
-
-.btn-group-lg > .btn,.btn-lg {
-    font-size: 25px;
+.services button {
     white-space: normal;
-}
-
-.btn {
-    padding-bottom: 20px;
-    color: white;
+    max-width: 300px;
 }
 
 .container-fluid {
-    min-height: 100%;
-    position: relative;
+		min-height:100%;
+    position:relative;
 }
 
 .container-fluid > .row:nth-child(odd) {
@@ -106,7 +97,7 @@ body h2 {
     font-family: 'Racing Sans One', cursive;
 }
 
-.infobar p,address,a {
+.infobar p, address, a {
     font-size: 16px;
     text-align: center;
     color: aliceblue;
@@ -121,13 +112,14 @@ body h2 {
     text-align: center;
 }
 
+
 footer {
     background-color: rgb(0, 0, 0);
     color: whitesmoke;
     height: 50px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    position:absolute;
+		bottom:0;
+		width:100%;
 }
 
 footer p {
@@ -142,21 +134,27 @@ footer p {
     display: table;
 }
 
+.services > div {
+    max-width: 300px;
+}
+
+.services a {
+    font-size: 17px;
+}
+
 
 @media only screen and (max-width: 991px) {
     .main {
         margin-left: auto;
         margin-right: auto;
     }
-    .aside p {
+    .aside p{
         padding: 0 100px;
         margin-left: auto;
         margin-right: auto;
     }
-
-    .infobar p,
-    address,
-    a {
+    
+    .infobar p, address, a {
         font-size: 95%;
         text-align: center;
         color: aliceblue;
@@ -168,83 +166,59 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
-    .main {
+     .main {
         margin-left: auto;
         margin-right: auto;
     }
-    .aside p {
+    .aside p{
         padding: 0 80px;
         margin-left: auto;
         margin-right: auto;
         font-size: 95%;
-    }
-
-    .left-buttons {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0px;
-    }
-
-    .right-buttons {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0px;
-    }
-
-    .container-fluid > .row {
-        padding: 10px 0px 30px 0px;
+        }
+     .container-fluid > .row{
+        padding: 10px 0px;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .main {
+     .main {
         margin-left: auto;
         margin-right: auto;
     }
-
-    a {
-        font-size: 10px;
-        ;
+    
+    a{
+        font-size:10px;;
     }
-
-    .navbar-dark .navbar-brand {
+    
+    .navbar-dark .navbar-brand{
         font-size: 70%;
     }
-
-    .aside p {
+        
+    .aside p{
         padding: 0 20px;
         margin-left: auto;
         margin-right: auto;
         font-size: 95%;
     }
-
-    .infobar p,
-    address,
-    a {
+  
+    .infobar p, address, a {
         font-size: 95%;
         padding-left: 40px;
         padding-right: 40px;
     }
 
-
-    iframe {
-        width: 100%;
+    
+    
+    iframe{
+      width: 60%;
         margin-right: auto;
         margin-left: auto;
     }
-
-    .container-fluid > .row {
-        padding: 10px 0px 30px 10px;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-     iframe {
-        width: 100%;
-        margin-left: 0px;
-    }
     
-    
+    .container-fluid > .row{
+        padding: 10px 0px;
+    }
 }
 
 
