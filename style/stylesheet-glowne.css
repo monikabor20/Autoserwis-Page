@@ -11,6 +11,15 @@ html, body {
 	padding:0;
 }
 
+body {
+    background-color: whitesmoke !important;
+}
+.container-fluid {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body h2 {
     font-size: 40px;
 }
@@ -82,16 +91,16 @@ body h2 {
     max-width: 300px;
 }
 
-.container-fluid {
-		min-height:100%;
+.content {
+    min-height:100%;
     position:relative;
 }
 
-.container-fluid > .row:nth-child(odd) {
+.content > .row:nth-child(odd) {
     background-color: whitesmoke;
 }
 
-.container-fluid > .row {
+.content > .row {
     background-color: #222c2c;
     padding: 50px 0;
     font-family: 'Racing Sans One', cursive;
@@ -143,6 +152,10 @@ footer p {
 }
 
 
+.header-big{
+    display: none;
+}
+
 @media only screen and (max-width: 991px) {
     .main {
         margin-left: auto;
@@ -176,7 +189,7 @@ footer p {
         margin-right: auto;
         font-size: 95%;
         }
-     .container-fluid > .row{
+     .content > .row{
         padding: 10px 0px;
     }
 }
@@ -207,8 +220,6 @@ footer p {
         padding-left: 40px;
         padding-right: 40px;
     }
-
-    
     
     iframe{
       width: 60%;
@@ -216,9 +227,8 @@ footer p {
         margin-left: auto;
     }
     
-    .container-fluid > .row{
+    .content > .row{
         padding: 10px 0px;
     }
 }
-
 
