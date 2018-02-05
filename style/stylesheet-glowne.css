@@ -34,7 +34,7 @@ body h2 {
 }
 
 .nav-item {
-    padding-left: 25px;
+    padding-left: 14px;
 }
 
 #collapsibleNavbar {
@@ -156,6 +156,11 @@ footer p {
     display: none;
 }
 
+iframe {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media only screen and (max-width: 991px) {
     .main {
         margin-left: auto;
@@ -192,6 +197,10 @@ footer p {
      .content > .row{
         padding: 10px 0px;
     }
+    
+      .infobar{
+        padding-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -215,20 +224,20 @@ footer p {
         font-size: 95%;
     }
   
-    .infobar p, address, a {
+    .infobar p, address {
         font-size: 95%;
         padding-left: 40px;
         padding-right: 40px;
-    }
-    
-    iframe{
-      width: 60%;
-        margin-right: auto;
-        margin-left: auto;
-    }
+       }
     
     .content > .row{
         padding: 10px 0px;
     }
+    
+    .infobar{
+        padding-top: 30px;
+    }
+    
+  
 }
 

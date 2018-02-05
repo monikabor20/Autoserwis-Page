@@ -60,7 +60,7 @@
     padding-bottom: 30px;
 }
 
-.img-responsive {
+.img-fluid {
     margin-bottom: auto;
     margin-top: auto;
     border-bottom-right-radius: 25px;
@@ -89,7 +89,7 @@ footer p {
         text-align: justify;
     }
 
-    .img-responsive {
+    .img-fluid {
         padding-top: 20px;
     }
 
@@ -101,14 +101,14 @@ footer p {
 
 @media only screen and (max-width: 768px) {
 
-    .img-responsive {
+    .img-fluid {
         padding-bottom: 20px;
     }
 
     .services h2 {
         padding: 20px;
         text-align: center;
-    }
+    } 
 }
 
 @media only screen and (max-width: 576px) {

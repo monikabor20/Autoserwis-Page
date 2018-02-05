@@ -9,177 +9,188 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="style/stylesheet-galeria.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113385519-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-113385519-1');
+
+    </script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-fixed-top">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Auto-Serwis Paweł Wierszel</a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Auto-Serwis Paweł Wierszel</a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Strona główna</a>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="uslugi.html">Usługi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
-                    </li>
-            </ul>
+                        <a class="nav-link" href="index.html">Strona główna</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="uslugi.html">Usługi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid content">
         <div class="row">
             <div class="header col-12">
                 <h3>Galeria</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="small-images">
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/foto-autoBG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                        <img class="img-responsive" src="foto/foto-galeria/male-foto/samoch%C3%B3d.jpg" />
+        <div class="row text-center text-lg-left">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/foto-autoBG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                        <img class="img-fluid" src="foto/foto-galeria/male-foto/samoch%C3%B3d.jpg" />
                     </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/ko%C5%82omotoru-BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/ko%C5%82o%20motoru.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/ko%C5%82omotoru-BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/ko%C5%82o%20motoru.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/maszyny%20rolnicze-BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/maszyny%20rolnicze.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/maszyny%20rolnicze-BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/maszyny%20rolnicze.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/motor%20w%20pianie-BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/motor%20w%20pianie.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/motor%20w%20pianie-BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/motor%20w%20pianie.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/bus-BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/bus.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/bus-BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/bus.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/naprawa%20BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/naprawa.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/naprawa%20BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/naprawa.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/samoch%C3%B3d%20naprawa-BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/samoch%C3%B3d%20naprawa.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/samoch%C3%B3d%20naprawa-BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/samoch%C3%B3d%20naprawa.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/motoryy-BG.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/motoryy.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/motoryy-BG.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/motoryy.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/blacharstwo%201.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/blacharstwo%201.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/blacharstwo%201.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/blacharstwo%201.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/blacharstwo%20czerwone%20auto.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/blacharstwo%20czerwone%20auto.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/blacharstwo%20czerwone%20auto.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/blacharstwo%20czerwone%20auto.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/blacharstwo.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/blacharstwo.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/blacharstwo.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/blacharstwo.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/motor%20bez%20kola.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/motor%20bez%20kola.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/motor%20bez%20kola.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/motor%20bez%20kola.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/auto%20maska.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/auto%20maska.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/auto%20maska.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/auto%20maska.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/czerwone%20zderzaki.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/czerwone%20zderzaki.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/czerwone%20zderzaki.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/czerwone%20zderzaki.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/mycie%20auta.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/mycie%20auta.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/mycie%20auta.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/mycie%20auta.jpg" />
                 </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/auto%20po%20wypadku.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/auto%20po%20wypadku.jpg" />
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/auto%20po%20wypadku.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/auto%20po%20wypadku.jpg" />
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/bordowe.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/bordowe.jpg" />
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/bordowe.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/bordowe.jpg" />
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/auto%201.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/auto%201.jpg" />
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/auto%201.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/auto%201.jpg" />
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/auto%202.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/auto%202.jpg" />
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/auto%202.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/auto%202.jpg" />
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/traktor2.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/traktor2.jpg" />
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/traktor2.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/traktor2.jpg" />
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/bus3.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/bus3.jpg"/>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/bus3.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/bus3.jpg"/>
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/bus%20po%20wypadku.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/bus%20po%20wypadku.jpg"/>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/bus%20po%20wypadku.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/bus%20po%20wypadku.jpg"/>
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/samochody%20zima.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/samochody%20zima.jpg"/>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/samochody%20zima.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/samochody%20zima.jpg"/>
                 </a>
-                </div>
+            </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="foto/foto-galeria/duze-foto/bez%20kola.jpg" data-lightbox="image-1" data-title="Autoserwis">
-                       <img class="img-responsive" src="foto/foto-galeria/male-foto/bez%20kola.jpg"/>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <a href="foto/foto-galeria/duze-foto/bez%20kola.jpg" class="d-block mb-4" data-lightbox="image-1" data-title="Autoserwis">
+                       <img class="img-fluid" src="foto/foto-galeria/male-foto/bez%20kola.jpg"/>
                 </a>
-                </div>
             </div>
         </div>
     </div>
@@ -187,9 +198,8 @@
     <footer class="text-center col-12">
         <p>Monika Borawska 2018 Copyright ©. All Rights Reserved.</p>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="javascript/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="lightbox/js/lightbox.min.js"></script>
 </body>
 
