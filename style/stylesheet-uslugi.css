@@ -2,6 +2,25 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
+html, body {
+    margin:0;
+	padding:0;
+}
+
+body {
+    background-color: whitesmoke !important;
+}
+
+.container-fluid {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navbar {
     font-family: 'Racing Sans One', cursive;
     font-size: 18px;
@@ -9,10 +28,6 @@
 
 .navbar-dark .navbar-brand {
     font-size: 18px;
-}
-
-.nav-item {
-    padding-left: 25px;
 }
 
 #collapsibleNavbar {
@@ -97,6 +112,15 @@ footer p {
         padding: 20px;
         text-align: center;
     }
+    
+   a {
+        font-size: 95%;
+        text-align: center;
+        color: aliceblue;
+        font-family: 'Racing Sans One', cursive;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -116,4 +140,16 @@ footer p {
         padding: 20px;
         text-align: center;
     }
+    
+        a{
+        font-size:10px;
+    }
+    
+    .navbar-dark .navbar-brand{
+        font-size: 70%;
+    }
 }
+
+
+
+

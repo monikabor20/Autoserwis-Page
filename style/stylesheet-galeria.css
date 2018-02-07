@@ -2,11 +2,25 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+body {
+    background-color: whitesmoke !important;
+}
+
+.container-fluid {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
@@ -16,10 +30,6 @@ body {
 
 .navbar-dark .navbar-brand {
     font-size: 18px;
-}
-
-.nav-item {
-    padding-left: 25px;
 }
 
 #collapsibleNavbar {
@@ -81,4 +91,26 @@ footer p {
     padding: 15px;
     font-size: 10px;
     opacity: 0.7;
+}
+
+@media only screen and (max-width: 991px) {
+
+    a {
+        font-size: 95%;
+        text-align: center;
+        color: aliceblue;
+        font-family: 'Racing Sans One', cursive;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    a {
+        font-size: 10px;
+    }
+
+    .navbar-dark .navbar-brand {
+        font-size: 70%;
+    }
 }
