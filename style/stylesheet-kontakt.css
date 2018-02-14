@@ -105,9 +105,6 @@ footer p {
 }
 
 @media only screen and (max-width: 576px) {
-    a {
-        font-size: 10px;
-    }
 
     .navbar-dark .navbar-brand {
         font-size: 70%;
